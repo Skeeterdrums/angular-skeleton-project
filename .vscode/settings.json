@@ -1,0 +1,17 @@
+{
+  // Auto-format when saving a file
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+
+  // Workspace folder/file exclusions
+  "files.exclude": {
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/reports": true
+  },
+  "tslint.jsEnable": true
+}

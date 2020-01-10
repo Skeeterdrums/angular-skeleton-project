@@ -1,22 +1,27 @@
-# angular-skeleton-project
-A simple angular skeleton project with unit testing, code coverage, and webpack integrated. I believe this is based on https://github.com/AngularClass/angular-starter when it was built for Angular 2.
+# AngularSkeletonProject
 
-## usage
-Build the project:
-* npm install
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
-Test the project (and watch for changes):
-* npm test
-* npm run test:watch
+## Development server
 
-Test with code coverage:
-* npm run coverage
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Compile with Typescript compiler:
-* npm run tsc
+## Code scaffolding
 
-Package the project:
-* npm run build
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Run the project:
-* npm start
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
